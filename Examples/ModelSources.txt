@@ -1,3 +1,11 @@
 Nameplate - http://www.thingiverse.com/thing:162367/#files
  
 Luggage Label - http://www.thingiverse.com/thing:168745/#files (Not working) working version http://www.thingiverse.com/thing:175150/#files
+
+KeyChain - http://www.thingiverse.com/thing:52734/#files
+
+iPhone Case - http://www.thingiverse.com/thing:40703/#files
+
+Monogrammed iPhone - http://www.thingiverse.com/thing:131532/#files
+
+BuildPlate.scad - http://www.thingiverse.com/thing:44094/#files
