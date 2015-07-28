@@ -4,7 +4,7 @@
 difference() {
     
     //Base     X, Y, Z               X, Y, Z
-    translate([0, 0, 0])cube(size = [40,20,8]);
+    translate([0, 0, 0])cube(size = [40,20,6]);
     
     //Hole1    X,  Y,  Z
     translate([8, 10, 0])cylinder(h = 40, r = 4);
@@ -14,12 +14,14 @@ difference() {
     
     
     //Hole3    X,  Y,  Z
-    translate([20, 20, -1]) rotate([90, 0, 0]) cylinder(h = 100, r = 4);
+    translate([20, 20, -1]) rotate([90, 0, 0]) cylinder(h = 100, r = 5);
     
     
 }
 
 }
+
+rotate([180, 0, 0]){
 
 //         X, Y, Z
 translate([0, 0, 0])ConnectorOne();
@@ -29,7 +31,7 @@ translate([-42, 0, 0])ConnectorOne();
 translate([0, 25, 0])ConnectorOne();
 
 translate([-42, 25, 0])ConnectorOne();
-
+}
 
 
 //http://blog.cubehero.com/2013/11/19/know-only-10-things-to-be-dangerous-in-openscad/
